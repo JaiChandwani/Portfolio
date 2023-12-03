@@ -6,3 +6,4 @@ This HTML Document contain all Three segments. This Document links One Favicon, 
 **1.1 Banner**<br>This is a Flexbox which contain Three elements. A Profile Image, Intro name and a button that redirect to Resume<br><br>
 **1.2 Navigation bar**<br>This is a Flexbox consist of Two elements and Four anchor tags that lends to their respective sections. <br><br>
 
+
