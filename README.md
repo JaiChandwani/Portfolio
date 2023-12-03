@@ -11,6 +11,11 @@ This HTML Document contain all Three segments. This Document links One Favicon, 
 **2.3 My Skills**<br>This section displays the skills level of different language in respect to bars.<br>
 **2.4 Contact**<br>This section consist of a form that the user have to fill in order to inquire something. <br><br>
 **2 Footer**<br>this section consist of copyright details.
-
+# THE CSS
+As discussed above there are Fours stylesheet linked in this webpage.
+**1. Style**<br>This stylesheet contains all the class and elements stylingthat are going to be used locally overall the document.<br>
+**2. Utilites**<br>This stylesheet contains the class and elements styling that are going to be used globally overall the document.<br>
+**3. Fonts**<br>This stylesheet contains the font sizing and styling that are going to be used globally overall the document.<br>
+**4. Animations**<br>This stylesheet contains the animations.<br>
 
 
