@@ -1,0 +1,60 @@
+@keyframes bannerscrollsymbol {
+    0% {
+      top: -6vw;
+      left: 60vw;
+    }
+  
+    50% {
+      top: -5.5vw;
+      left: 60vw;
+    }
+  
+    100% {
+      top: -6vw;
+      left: 60vw;
+    }
+  }
+
+  @keyframes htmlprgsanimate {
+    0%{
+        width:0vw;
+    }
+    100%{
+        width:44.65vw; /*95%*/
+    }
+  }
+  @keyframes cssprgsanimate {
+    0%{
+        width:0vw;
+    }
+    100%{
+        width:39.95vw; /*85%*/
+    }
+  }
+  @keyframes jsprgsanimate {
+    0%{
+        width:0vw;
+    }
+    100%{
+        width:32.9vw; /*75%*/
+    }
+  }
+  @keyframes bootstrapprgsanimate {
+    0%{
+        width:0vw;
+    }
+    100%{
+        width:44.65vw; /*95%*/
+    }
+  }
+
+  @keyframes prgressbarAnimate {
+    0%{
+        width: 0px;
+        height: 0.5vh;
+    }
+    100%{
+        width: 100%;
+        height: 0.5vh ;
+    }
+}

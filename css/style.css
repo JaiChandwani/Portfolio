@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+/* first banner */
+.banner {
+  height: 45vw;
+  width: 100vw;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  background-size: auto;
+}
+
+.banner img {
+  width: 20vw;
+  height: 20vw;
+  border: 4px solid;
+  border-color: red;
+  border-radius: 150px;
+}
+
+.banner-items h1,
+h3 {
+  text-align: center;
+}
+
+
+.banner-items {
+  margin-left: 2vw;
+}
+
+#Resume {
+  padding: 1vw 2vw;
+  position: relative;
+  bottom: 11vw;
+  left: 56.5vw;
+  z-index: 2;
+  border-radius: 2vw;
+  border-color: aquamarine;
+  border-width: .3 vw;
+  background-color: gray;
+}
+
+button a {
+  text-decoration: dashed;
+  color: aquamarine;
+}
+
+/* navigation bar */
+.nav {
+  /* background-color: #333; */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vw;
+  background-color: gray;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  margin-right: 2vw;
+}
+
+
+
+/* About Section */
+
+.About {
+  /* background-color: black; */
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  position: relative;
+  top: 5vw;
+  width: 100vw;
+}
+
+.item1 img{
+  height: 23vw;
+}
+.Aboutme {
+  position: relative;
+  top: 0vw;
+  left: 0vw;
+}
+
+.About-items {
+  position: relative;
+  top: 1vw;
+  left: 5.8vw;
+}
+
+.details {
+  display: inline-grid;
+  grid-template-columns: 29vw auto;
+  position: relative;
+  top: 3vw;
+  left: 5.8vw;
+
+}
+
+.item {
+  padding: 1vw 0vw;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* education */
+.Education h1 {
+  position: relative;
+  top: 13vw;
+}
+#educationTable{
+  position: relative;
+  top: 19vw;
+  left: 8vw;
+}
+#educationTable td{
+  width: 40vw;
+  padding: 2vw 0vw;
+}
+
+/* skills */
+.My-skills{
+  position: relative;
+  top: 24vw;
+}
+
+#skillsTable td{
+  position: relative;
+  top: 31vw ;
+  width: 48vw;
+  padding: 2vw 0vw;
+}
+
+.htmlprgs{
+  width: 0vw; /*actual width 47vw*/
+  margin: 3vw 0vw;
+  border: 2px solid red;
+  animation: htmlprgsanimate 5s 1 forwards;
+}
+.cssprgs{
+  width: 0vw; /*actual width 47vw*/
+  margin: 3vw 0vw;
+  border: 2px solid aquamarine;
+  animation: cssprgsanimate 5s 1 forwards;
+}
+.jsprgs{
+  width: 0vw; /*actual width 47vw*/
+  margin: 3vw 0vw;
+  border: 2px solid mediumvioletred;
+  animation: jsprgsanimate 5s 1 forwards;
+}
+.bootstrapprgs{
+  width: 0vw; /*actual width 47vw*/
+  margin: 3vw 0vw;
+  border: 2px solid burlywood;
+  animation: bootstrapprgsanimate 5s 1 forwards;
+}
+
+/* contact */
+.contact{
+  position: relative;
+  top: 35vw;
+}
+input{
+  height: 7vw;
+  width: 45vw;
+  margin-bottom: 2vw;
+  border-radius: 2vw;
+  border: 0.2vw dashed plum;
+  text-align: center;
+  position: relative;
+  display: block;
+  top: 45vw;
+  left: 26vw;
+}
+
+#submit{
+  height: 5vw;
+  width: 20vw;
+  border-radius: 10vw;
+  border: 0.2vw solid plum;
+  position: relative;
+  top: 55vw;
+  left: 40vw;
+}
+
+
+/* footer */
+.copyright{
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  height: 15vw;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  bottom: -68vw;
+}
+  

@@ -1,0 +1,22 @@
+.all-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    width: 44.6vw;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    animation: prgressbarAnimate 2s ease  1 ;
+    background-color: red;
+    display: flex;
+
+    z-index: 3;
+    position: fixed;
+}
+
