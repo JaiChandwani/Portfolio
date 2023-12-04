@@ -26,16 +26,15 @@
 }
 .dl-font {
     font-family: 'Londrina Outline', sans-serif;
-    /* font-family: 'Chakra Petch', sans-serif;  */
     font-weight: 900;
-    color: red;
+    color: whitesmoke;
 }
 
 .pacifico-font{
     font-family: 'Dhurjati', sans-serif;
     font-weight: 50;
     font-size: 3vw;
-    color:aquamarine;
+    color:whitesmoke;
 }
 
 .manrope{
